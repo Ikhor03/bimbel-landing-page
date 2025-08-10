@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { BookOpen, Users, Clock, CheckCircle, ArrowLeft, Calendar, MapPin, Star, Target } from 'lucide-react'
+import { BookOpen, Users, CheckCircle, ArrowLeft, Star, Target } from 'lucide-react'
 import Link from "next/link"
 import Image from "next/image"
 
@@ -267,7 +267,7 @@ export default function Kelas12Page() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Program Kedokteran di Konstanta benar-benar membantu saya lolos FK UI. Simulasi UTBK-nya sangat mirip dengan ujian asli."
+                Program Kedokteran di Konstanta benar-benar membantu saya lolos FK UI. Simulasi UTBK-nya sangat mirip dengan ujian asli.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mr-3">
@@ -287,7 +287,7 @@ export default function Kelas12Page() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Program MIPA sangat lengkap. Saya berhasil masuk Teknik Informatika ITB dengan skor UTBK yang memuaskan."
+                Program MIPA sangat lengkap. Saya berhasil masuk Teknik Informatika ITB dengan skor UTBK yang memuaskan.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center mr-3">
@@ -307,7 +307,7 @@ export default function Kelas12Page() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Program Soshum memberikan pemahaman mendalam tentang materi. Alhamdulillah bisa lolos FH UGM."
+                Program Soshum memberikan pemahaman mendalam tentang materi. Alhamdulillah bisa lolos FH UGM.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">

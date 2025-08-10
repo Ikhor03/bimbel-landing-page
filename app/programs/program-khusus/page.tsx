@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { BookOpen, Users, Clock, CheckCircle, ArrowLeft, Calendar, MapPin, Star, Target, TrendingUp, FileText } from 'lucide-react'
+import { BookOpen, CheckCircle, ArrowLeft, Target, FileText } from 'lucide-react'
 import Link from "next/link"
 import Image from "next/image"
 

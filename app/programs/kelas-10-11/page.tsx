@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { BookOpen, Users, Clock, CheckCircle, ArrowLeft, Calendar, MapPin, Star } from 'lucide-react'
 import Link from "next/link"
@@ -199,7 +199,7 @@ export default function Kelas1011Page() {
                     ))}
                   </div>
                   <p className="text-sm text-gray-600 mb-3">
-                    "Program kelas 10-11 di Konstanta sangat membantu saya memahami konsep dasar dengan baik."
+                    Program kelas 10-11 di Konstanta sangat membantu saya memahami konsep dasar dengan baik.
                   </p>
                   <div className="text-sm font-medium">- Maya Sari, Kelas 11</div>
                 </CardContent>

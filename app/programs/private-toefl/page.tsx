@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { BookOpen, Users, Clock, CheckCircle, ArrowLeft, Calendar, MapPin, Star, Globe, User, Headphones } from 'lucide-react'
+import { BookOpen, Clock, CheckCircle, ArrowLeft, Star, Globe, User, Headphones } from 'lucide-react'
 import Link from "next/link"
 import Image from "next/image"
 
@@ -407,8 +407,8 @@ export default function PrivateToeflPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Private class matematika sangat membantu saya memahami konsep yang sulit. 
-                Tentor sabar dan metodenya mudah dipahami."
+                Private class matematika sangat membantu saya memahami konsep yang sulit. 
+                Tentor sabar dan metodenya mudah dipahami.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-3">
@@ -428,7 +428,7 @@ export default function PrivateToeflPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Alhamdulillah berhasil dapat skor TOEFL 550! Program TOEFL di Konstanta benar-benar lengkap dan terstruktur."
+                Alhamdulillah berhasil dapat skor TOEFL 550! Program TOEFL di Konstanta benar-benar lengkap dan terstruktur.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
@@ -448,8 +448,8 @@ export default function PrivateToeflPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Private class kimia membantu saya naik peringkat drastis di sekolah. 
-                Sekarang kimia jadi mata pelajaran favorit saya!"
+                Private class kimia membantu saya naik peringkat drastis di sekolah. 
+                Sekarang kimia jadi mata pelajaran favorit saya!
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-3">

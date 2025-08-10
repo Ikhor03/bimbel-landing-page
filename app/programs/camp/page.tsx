@@ -1,9 +1,8 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { BookOpen, Users, Clock, CheckCircle, ArrowLeft, Calendar, MapPin, Star, Zap, Mountain } from 'lucide-react'
+import { BookOpen, Users, CheckCircle, ArrowLeft, Calendar, MapPin, Star, Zap, Mountain } from 'lucide-react'
 import Link from "next/link"
-import Image from "next/image"
 
 export default function CampPage() {
   return (
@@ -293,8 +292,8 @@ export default function CampPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Holycamp benar-benar mengubah cara belajar saya. 7 hari yang sangat intensif tapi hasilnya luar biasa. 
-                Skor UTBK saya naik drastis setelah ikut camp ini."
+                Holycamp benar-benar mengubah cara belajar saya. 7 hari yang sangat intensif tapi hasilnya luar biasa. 
+                Skor UTBK saya naik drastis setelah ikut camp ini.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
@@ -314,8 +313,8 @@ export default function CampPage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Koncamp memberikan waktu yang cukup untuk benar-benar memahami materi. 
-                Suasana belajar yang fokus dan tentor yang sabar membuat saya semakin percaya diri."
+                Koncamp memberikan waktu yang cukup untuk benar-benar memahami materi. 
+                Suasana belajar yang fokus dan tentor yang sabar membuat saya semakin percaya diri.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center mr-3">

@@ -1,3 +1,4 @@
+'use client'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -347,8 +348,8 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Alhamdulillah berkat Konstanta Education saya bisa lolos FK UI. Metode pembelajarannya sangat efektif
-                dan tentor-tentornya sangat membantu."
+                Alhamdulillah berkat Konstanta Education saya bisa lolos FK UI. Metode pembelajarannya sangat efektif
+                dan tentor-tentornya sangat membantu.
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center mr-3">
@@ -368,8 +369,8 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Program Soshum di Konstanta Education benar-benar membantu saya memahami materi dengan lebih baik.
-                Sekarang saya kuliah di FH UGM!"
+                Program Soshum di Konstanta Education benar-benar membantu saya memahami materi dengan lebih baik.
+                Sekarang saya kuliah di FH UGM!
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-3">
@@ -389,8 +390,8 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "Tryout UTBK di Konstanta Education sangat membantu saya mengukur kemampuan. Akhirnya bisa lolos ITB
-                jurusan Teknik Informatika!"
+                Tryout UTBK di Konstanta Education sangat membantu saya mengukur kemampuan. Akhirnya bisa lolos ITB
+                jurusan Teknik Informatika!
               </p>
               <div className="flex items-center">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
