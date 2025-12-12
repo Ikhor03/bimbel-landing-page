@@ -15,14 +15,26 @@ export default function HomePage() {
       <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <Image 
+            {/* <Image 
               src="/images/konstanta.PNG" 
               alt="Konstanta Education Logo" 
               width={150} 
               height={40}
               className="h-10 w-auto"
               priority
-            />
+            /> */}
+            <div className="flex items-center space-x-2 mb-4">
+                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                  <Image 
+                  src="/images/konstanta.PNG" 
+                  alt="Konstanta Education Logo" 
+                  width={120} 
+                  height={32}
+                  className="h-8 w-auto"
+                />
+                </div>
+                <span className="text-xl font-bold">Konstanta Education</span>
+              </div>
           </Link>
           <nav className="hidden md:flex items-center space-x-8">
             <button
@@ -498,8 +510,14 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center">
-                  <BookOpen className="h-5 w-5 text-white" />
+                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                  <Image 
+                  src="/images/konstanta.PNG" 
+                  alt="Konstanta Education Logo" 
+                  width={120} 
+                  height={32}
+                  className="h-8 w-auto"
+                />
                 </div>
                 <span className="text-xl font-bold">Konstanta Education</span>
               </div>
@@ -542,7 +560,7 @@ export default function HomePage() {
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Konstanta Education. All rights reserved.</p>
+            <p className="text-gray-400">&copy; 2025 Konstanta Education. All rights reserved.</p>
           </div>
         </div>
       </footer>
