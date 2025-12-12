@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { BookOpen, Users, CheckCircle, ArrowLeft, Calendar, MapPin, Star, Zap, Mountain } from 'lucide-react'
 import Link from "next/link"
+import Image from "next/image"
 
 export default function CampPage() {
   return (
@@ -11,8 +12,9 @@ export default function CampPage() {
       <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center">
-              <BookOpen className="h-6 w-6 text-white" />
+            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+              {/* <BookOpen className="h-6 w-6 text-white" /> */}
+              <Image src="/images/konstanta.png" alt="Konstanta Education Logo" width={120} height={32} className="h-8 w-auto" />
             </div>
             <span className="text-2xl font-bold text-gray-900">Konstanta Education</span>
           </Link>
