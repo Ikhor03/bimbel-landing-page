@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from "react"
-import { usePathname, useSearchParams } from "next/navigation"
+import { usePathname } from "next/navigation"
 
 function scrollToCurrentHash() {
   if (typeof window === "undefined") return
@@ -25,11 +25,10 @@ function scrollToCurrentHash() {
 
 export function ScrollToHash() {
   const pathname = usePathname()
-  const searchParams = useSearchParams()
 
   useEffect(() => {
     scrollToCurrentHash()
-  }, [pathname, searchParams])
+  }, [pathname])
 
   useEffect(() => {
     const onHashChange = () => scrollToCurrentHash()
