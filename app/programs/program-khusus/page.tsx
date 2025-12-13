@@ -236,27 +236,34 @@ export default function ProgramKhususPage() {
                   </div>
                 </div>
               </div>
-              <div>
-                <Image
-                  src="/placeholder.svg?height=400&width=500"
-                  alt="TPS Class"
-                  width={500}
-                  height={400}
-                  className="rounded-xl shadow-lg"
-                />
+              <div className="w-full max-w-[500px] mx-auto">
+                <div className="relative aspect-[5/4] rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    // src="/placeholder.svg?height=400&width=500"
+                    src="/images/tps-class.jpg"
+                    alt="TPS Class"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 500px"
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
             </div>
 
             {/* Pendalaman Materi Detail */}
             <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="order-2 lg:order-1">
-                <Image
-                  src="/placeholder.svg?height=400&width=500"
-                  alt="Advanced Learning"
-                  width={500}
-                  height={400}
-                  className="rounded-xl shadow-lg"
-                />
+              <div className="order-2 lg:order-1 w-full max-w-[500px] mx-auto">
+                <div className="relative aspect-[5/4] rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/images/advanced-learning.jpg"
+                    alt="Advanced Learning"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 500px"
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
               <div className="order-1 lg:order-2">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Program Pendalaman Materi</h3>
@@ -322,14 +329,17 @@ export default function ProgramKhususPage() {
                   </div>
                 </div>
               </div>
-              <div>
-                <Image
-                  src="/placeholder.svg?height=400&width=500"
-                  alt="CBT Tryout"
-                  width={500}
-                  height={400}
-                  className="rounded-xl shadow-lg"
-                />
+              <div className="w-full max-w-[500px] mx-auto">
+                <div className="relative aspect-[5/4] rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/images/tryout-cbt.jpg"
+                    alt="CBT Tryout"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 500px"
+                    className="object-cover"
+                    priority
+                  />
+                </div>
               </div>
             </div>
           </div>
