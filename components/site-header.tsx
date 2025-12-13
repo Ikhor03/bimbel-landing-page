@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
+import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -16,6 +17,7 @@ const NAV_ITEMS = [
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false)
+  const pathname = usePathname()
 
   useEffect(() => {
     if (!open) return
@@ -38,7 +40,17 @@ export function SiteHeader() {
   return (
     <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
+        <Link
+          href="/"
+          className="flex items-center space-x-2"
+          onClick={(e) => {
+            if (pathname !== "/") return
+            e.preventDefault()
+            setOpen(false)
+            window.history.replaceState(null, "", "/")
+            window.scrollTo({ top: 0, behavior: "smooth" })
+          }}
+        >
           <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
             <Image
               src="/images/konstanta.PNG"
