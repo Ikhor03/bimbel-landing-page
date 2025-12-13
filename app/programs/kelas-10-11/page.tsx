@@ -57,14 +57,18 @@ export default function Kelas1011Page() {
                 </Button>
               </div>
             </div>
-            <div className="relative">
-              <Image
-                src="/placeholder.svg?height=500&width=600"
-                alt="Students in classroom"
-                width={600}
-                height={500}
-                className="rounded-2xl shadow-2xl"
-              />
+            <div className="relative group w-full max-w-[600px] mx-auto">
+              <div className="relative aspect-[6/5] rounded-2xl overflow-hidden">
+                <Image
+                  src="/images/students-in-classroom.jpg"
+                  alt="Students in classroom"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 600px"
+                  className="object-cover rounded-2xl shadow-2xl opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl" />
+              </div>
             </div>
           </div>
         </div>

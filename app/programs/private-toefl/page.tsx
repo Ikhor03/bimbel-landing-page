@@ -379,14 +379,17 @@ export default function PrivateToeflPage() {
               </div>
             </div>
 
-            <div>
-              <Image
-                src="/placeholder.svg?height=500&width=600"
-                alt="TOEFL Preparation"
-                width={600}
-                height={500}
-                className="rounded-xl shadow-lg"
-              />
+            <div className="w-full max-w-[600px] mx-auto">
+              <div className="relative aspect-[6/5] rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/images/preparing-toefl.jpg"
+                  alt="TOEFL Preparation"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 600px"
+                  className="object-cover"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </div>

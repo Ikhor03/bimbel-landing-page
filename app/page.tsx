@@ -105,13 +105,16 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative">
-              <Image
-                src="/placeholder.svg?height=600&width=500"
-                alt="Students studying"
-                width={500}
-                height={600}
-                className="rounded-2xl shadow-2xl"
-              />
+              <div className="w-full max-w-[500px] aspect-[5/6] rounded-2xl shadow-2xl overflow-hidden mx-auto relative">
+                <Image
+                  src="/images/students-studying.jpg"
+                  alt="Students studying"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 500px"
+                  className="object-cover rounded-2xl"
+                  priority
+                />
+              </div>
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-3">
                   <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center">
