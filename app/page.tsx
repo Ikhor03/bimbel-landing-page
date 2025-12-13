@@ -11,53 +11,6 @@ import Link from "next/link"
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                  <Image 
-                  src="/images/konstanta.PNG" 
-                  alt="Konstanta Education Logo" 
-                  width={120} 
-                  height={32}
-                  className="h-8 w-auto"
-                />
-                </div>
-                <span className="text-xl font-bold">Konstanta Education</span>
-              </div>
-          </Link>
-          <nav className="hidden md:flex items-center space-x-8">
-            <button
-              onClick={() => document.getElementById('programs')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-gray-600 hover:text-emerald-600 transition-colors"
-            >
-              Program
-            </button>
-            <button
-              onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-gray-600 hover:text-emerald-600 transition-colors"
-            >
-              Tentang Kami
-            </button>
-            <button
-              onClick={() => document.getElementById('partnerships')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-gray-600 hover:text-emerald-600 transition-colors"
-            >
-              Kemitraan
-            </button>
-            <button
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-gray-600 hover:text-emerald-600 transition-colors"
-            >
-              Kontak
-            </button>
-            <Button className="bg-emerald-600 hover:bg-emerald-700">Daftar Sekarang</Button>
-          </nav>
-        </div>
-      </header>
-
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-emerald-50 to-orange-50">
         <div className="container mx-auto px-4">

@@ -1,32 +1,12 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { BookOpen, Users, CheckCircle, ArrowLeft, Star, Target } from 'lucide-react'
-import Link from "next/link"
+import { BookOpen, Users, CheckCircle, Star, Target } from 'lucide-react'
 import Image from "next/image"
 
 export default function Kelas12Page() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-              {/* <BookOpen className="h-6 w-6 text-white" /> */}
-              <Image src="/images/konstanta.PNG" alt="Konstanta Education Logo" width={120} height={32} className="h-8 w-auto" />
-            </div>
-            <span className="text-2xl font-bold text-gray-900">Konstanta Education</span>
-          </Link>
-          <Link href="/">
-            <Button variant="outline" className="flex items-center space-x-2">
-              <ArrowLeft className="h-4 w-4" />
-              <span>Kembali</span>
-            </Button>
-          </Link>
-        </div>
-      </header>
-
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-orange-50 to-red-50">
         <div className="container mx-auto px-4">
